@@ -1,0 +1,40 @@
+header{
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+main{
+    width: 50%;
+    margin: 0 25%;
+    float: left;
+}
+
+nav{
+    top: 100px;
+    position: sticky;
+    margin-left: -25%;
+    width: 25%;
+    float: left;
+}
+nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+}
+aside{
+    top: 100px;
+    position: sticky;
+    margin-left: -100%;
+    width: 25%;
+    float: left;
+}
+footer{
+    clear:left;
+    
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
